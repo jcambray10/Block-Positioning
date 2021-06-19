@@ -1,42 +1,45 @@
-    #wrapper{
-        width: 710px;
-        height: 700px;
-        margin: 0;
-        background-color: #d5d1ae;
-        
-    } 
-    #header{
-        width: 710px;
+img {
+    width: 100px;
+	/*display:inline-block;*/
+}
+div	{
+    display:inline-block;
+}
+.wrapper {
+    width: 800px;
+	background-color: #d3d1ad;
+    padding: 20px;
+}
+.main {
+    margin: 0 auto;
+	width: 710px;
+    display:block;
+}
+    .main img{
         height: 100px;
-        margin: 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        justify-content: center;
-        background-color: #d5d1ae;
     }
+.header {
+	width: 610px;
+	margin:0 auto;
+	display:block;
 }
-    .github{
-        background-color: white;
-        height: 85px;
-        width: 85px;
-        align-content: center;
+h1{
+	display:inline-block;
 }
-    .catandninja{
-        background-color: white;
-        height: 75px;
-        width: 75px;
+.blue {
+	background-color:  #82b3ed;
+	padding:15px 15px 12px 15px;
+	border: 3px solid black;
+	margin:1px;
 }
-    #blocks{
-        height: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        justify-content: center;
-    }
-    .dojocat{
-        background-color: white;
-        border: 3px black
-        height: 75px;
-        
-    }
+.red {
+	background-color: #f3696f;
+	padding:15px 15px 12px 15px;
+	border: 3px solid black;
+	margin:1px;
+}
+.white { 
+    background-color: white;
+	padding:15px 15px 12px 15px;
+	margin:1px;
+}
